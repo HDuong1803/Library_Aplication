@@ -1,0 +1,169 @@
+# depslib dependency file v1.0
+1609046017 source:c:\users\admin\desktop\c++\library\main.cpp
+	<iostream>
+	"System.h"
+
+1609072010 c:\users\admin\desktop\c++\library\include\system.h
+	<iostream>
+
+1609072633 source:c:\users\admin\desktop\c++\library\src\system.cpp
+	"System.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1609046017 source:c:\users\admin\desktop\library-application\library\main.cpp
+	<iostream>
+	"System.h"
+
+1610719023 c:\users\admin\desktop\library-application\library\include\system.h
+	"General.h"
+	"ServiceBook.h"
+	"ManagerEmloyee.h"
+	<iostream>
+	"windows.h"
+
+1610728273 source:c:\users\admin\desktop\library-application\library\src\system.cpp
+	"System.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"Book.h"
+	"User.h"
+
+1610722587 c:\users\admin\desktop\library-application\library\include\book.h
+	<iostream>
+	<string.h>
+	"General.h"
+	"Dohoa.h"
+	"User.h"
+	"windows.h"
+
+1610729175 source:c:\users\admin\desktop\library-application\library\src\book.cpp
+	"Book.h"
+	<iostream>
+	<stdlib.h>
+	<string>
+	<fstream>
+	<iomanip>
+	<conio.h>
+	<stdio.h>
+	<cstdio>
+	"Dohoa.h"
+
+1610714494 source:c:\users\admin\desktop\library-application\library\src\person.cpp
+	"Person.h"
+	<iostream>
+	<stdlib.h>
+	<string>
+	<fstream>
+	<iomanip>
+	<conio.h>
+	<stdio.h>
+	<cstdio>
+
+1610713541 c:\users\admin\desktop\library-application\library\include\person.h
+	<string.h>
+	<iostream>
+	"General.h"
+
+1610728340 source:c:\users\admin\desktop\library-application\library\src\user.cpp
+	"User.h"
+	"Person.h"
+	<iostream>
+	<stdlib.h>
+	<string>
+	<fstream>
+	<iomanip>
+	<conio.h>
+	<stdio.h>
+	<cstdio>
+
+1610726553 c:\users\admin\desktop\library-application\library\include\user.h
+	"Person.h"
+	"Date.h"
+	"General.h"
+	<iostream>
+	<windows.h>
+
+1609822744 c:\users\admin\desktop\library-application\library\include\date.h
+	<iostream>
+	<fstream>
+
+1609825120 c:\users\admin\desktop\library-application\library\include\usermanager.h
+	<vector>
+	"User.h"
+	<stdio.h>
+	<stdlib.h>
+	"System.h"
+
+1609822757 source:c:\users\admin\desktop\library-application\library\src\date.cpp
+	"Date.h"
+
+1610720695 source:c:\users\admin\desktop\library-application\library\src\general.cpp
+	"General.h"
+	<string.h>
+
+1610720666 c:\users\admin\desktop\library-application\library\include\general.h
+	<string>
+	<iostream>
+	<stdio.h>
+
+1610343718 c:\users\admin\desktop\library-application\library\include\dohoa.h
+	<iostream>
+	<Windows.h>
+	<Shlwapi.h>
+	<conio.h>
+
+1610343597 source:c:\users\admin\desktop\library-application\library\src\dohoa.cpp
+	"Dohoa.h"
+
+1610726805 source:c:\users\admin\desktop\library-application\library\src\servicebook.cpp
+	"ServiceBook.h"
+
+1610690606 c:\users\admin\desktop\library-application\library\include\servicebook.h
+	<iostream>
+	"User.h"
+	"Book.h"
+
+1610720705 source:c:\users\admin\desktop\library-application\library\src\people.cpp
+	"People.h"
+
+1610720358 c:\users\admin\desktop\library-application\library\include\people.h
+	<iostream>
+	<fstream>
+	"General.h"
+	<string>
+
+1610727181 source:c:\users\admin\desktop\library-application\library\src\teacher.cpp
+	"Teacher.h"
+
+1610694655 c:\users\admin\desktop\library-application\library\include\teacher.h
+	<iostream>
+	<string>
+	"People.h"
+
+1610727223 source:c:\users\admin\desktop\library-application\library\src\accountant.cpp
+	"Accountant.h"
+
+1610705157 c:\users\admin\desktop\library-application\library\include\accountant.h
+	<iostream>
+	<string>
+	"People.h"
+
+1610727464 source:c:\users\admin\desktop\library-application\library\src\manageremloyee.cpp
+	"ManagerEmloyee.h"
+	<string.h>
+
+1610720776 c:\users\admin\desktop\library-application\library\include\manageremloyee.h
+	<iostream>
+	<fstream>
+	<string>
+	"People.h"
+	"Teacher.h"
+	"General.h"
+	"Accountant.h"
+	<stdlib.h>
+

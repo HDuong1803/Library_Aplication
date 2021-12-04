@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Library" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Library" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Library" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Accountant.h" />
+		<Unit filename="include/Book.h" />
+		<Unit filename="include/Date.h" />
+		<Unit filename="include/General.h" />
+		<Unit filename="include/ManagerEmloyee.h" />
+		<Unit filename="include/People.h" />
+		<Unit filename="include/Person.h" />
+		<Unit filename="include/ServiceBook.h" />
+		<Unit filename="include/System.h" />
+		<Unit filename="include/Teacher.h" />
+		<Unit filename="include/User.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Accountant.cpp" />
+		<Unit filename="src/Book.cpp" />
+		<Unit filename="src/Date.cpp" />
+		<Unit filename="src/General.cpp" />
+		<Unit filename="src/ManagerEmloyee.cpp" />
+		<Unit filename="src/People.cpp" />
+		<Unit filename="src/Person.cpp" />
+		<Unit filename="src/ServiceBook.cpp" />
+		<Unit filename="src/System.cpp" />
+		<Unit filename="src/Teacher.cpp" />
+		<Unit filename="src/User.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
