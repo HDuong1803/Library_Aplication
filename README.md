@@ -9,7 +9,7 @@
 - In manager employee use polymorphism and abstraction
 - Project use read and write file binary and text
 ## How to use:
-- Open code-block and open file `library`
+- Open code-block and open file `library.cbp`
 - Account for login admin -> username: `admin` and password: `admin`
 - Acount for login user -> Please show user after you use username and password in there
 ## Demo:
